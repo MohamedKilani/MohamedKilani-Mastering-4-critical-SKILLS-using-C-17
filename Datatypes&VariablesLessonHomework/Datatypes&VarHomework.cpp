@@ -33,8 +33,6 @@ int main()
 		//Problem #3 Even & Odd sum
 	int odd1, even1, odd2, even2, odd3, even3, odd4, even4;
 	cin>> odd1>> even1>> odd2>> even2>> odd3>> even3>> odd4>> even4;
-	cout << "\n"
-		<< even1 + even2 + even3 + even4;
-	cout<<"  "<<  odd1+  odd2+  odd3 + odd4;
+	cout << "\n"<< even1 + even2 + even3 + even4<<"  "<<  odd1+  odd2+  odd3 + odd4;
 }
 
