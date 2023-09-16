@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void main()
 {
+	
 	//variables Homework 1 
 		//Problem #1 Math operations
 	int num1, num2;
@@ -33,6 +34,54 @@ int main()
 		//Problem #3 Even & Odd sum
 	int odd1, even1, odd2, even2, odd3, even3, odd4, even4;
 	cin>> odd1>> even1>> odd2>> even2>> odd3>> even3>> odd4>> even4;
-	cout << "\n"<< even1 + even2 + even3 + even4<<"  "<<  odd1+  odd2+  odd3 + odd4;
+	cout << "\n"
+		<< even1 + even2 + even3 + even4;
+	cout<<"  "<<  odd1+  odd2+  odd3 + odd4;
+	// variables Homework 2
+	//problem1#Guess the output
+	 /*  
+	int num1, num2, num3;
+
+	num1 = 0, num2 = 1, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	num1 = num2, num2 = num3, num3 = num1 + num2, cout << num3 << "\n";
+	output is..
+	1
+	2
+	3
+	5
+	8
+	13
+	21
+	34
+	55
+	
+	//problem #2 swapping 2 numbers!
+	int num1, num2, num3 = -1;
+	cin >> num1 >> num2;   //7 231
+
+	// TODO Write 3 lines that swaps them
+	num3 = num1;
+	num1 = num2;
+	num2 = num3;
+	cout << num1 << " " << num2 << endl;
+	
+	//Variables Homework 3
+	//problem #1 Swapping 3 numbers
+	int num1, num2, num3, temp = -1;
+	cin >> num1 >> num2 >> num3;
+	//4lines
+	temp = num1;
+	num1 = num2;
+	num2 = num3;
+	num3 = temp;
+	cout << num1 << " " << num2 << " " << num3 << endl;
+	*/
 }
 
